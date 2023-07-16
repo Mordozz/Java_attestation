@@ -5,7 +5,6 @@ class Notebook {
     private int hdd;
     private double cpuFrequency;
     private double price;
-    private double weight;
 
     public Notebook(String model, String processorModel, int ram, int hdd, double cpuFrequency, double price) {
         this.model = model;
@@ -22,5 +21,5 @@ class Notebook {
     public int getHdd() { return hdd; }
     public double getCpuFrequency() { return cpuFrequency; }
     public double getPrice() { return price; }
-    public double getWeight() { return weight; }
+
 }
